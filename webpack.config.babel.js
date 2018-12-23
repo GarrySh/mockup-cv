@@ -32,9 +32,6 @@ export default () => ({
       },
       {
         loader: 'css-loader',
-        options: {
-          minimize: process.env.NODE_ENV === 'production',
-        },
       },
       {
         loader: 'postcss-loader',
